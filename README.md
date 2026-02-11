@@ -1,4 +1,4 @@
-# 🐦 TWITTER CLONE
+# 🐦 TWITTER (X) CLONE
 
 A **Twitter Clone web application** built using modern web technologies that replicates core features of Twitter such as posting tweets, liking, commenting, user authentication, and following users.
 
