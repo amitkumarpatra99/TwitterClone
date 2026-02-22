@@ -129,235 +129,236 @@
         </header>
 
 
-        <!--  SECOND PART -->
-
-
-        <div class="second  w-full border-[1px] border-x-gray-600 border-y-black ">
-
-            <div class="top flex p-3 sticky top-0 bg-black backdrop-blur-3xl opacity-80 ">
-                <div class="absolute w-16  h-1 rounded-full bg-blue-700 bottom-0 left-[19%] z-10"></div>
-                <div class="left w-1/2 flex justify-center font-bold text-lg  ">For You</div>
-
-                <div class="right w-1/2 flex justify-center font-bold text-lg ">Following </div>
-
-                <div class="setting  mx-2">
-                    <lord-icon src="https://cdn.lordicon.com/lecprnjb.json" trigger="hover" colors="primary:#ffffff"
-                        style="width:25px;height:25px">
-                    </lord-icon>
+        <main class="flex-1 max-w-[600px] border-x border-gray-700 min-h-screen">
+            <div class="top sticky top-0 bg-black/80 backdrop-blur-md z-20 border-b border-gray-700">
+                <div class="flex items-center">
+                    <div class="flex-1 flex justify-center cursor-pointer hover:bg-white/10 p-4 transition relative">
+                        <span class="font-bold text-lg">For You</span>
+                        <div class="absolute bottom-0 w-14 h-1 bg-blue-500 rounded-full"></div>
+                    </div>
+                    <div
+                        class="flex-1 flex justify-center cursor-pointer hover:bg-white/10 p-4 transition text-gray-500 font-bold">
+                        <span class="text-lg">Following</span>
+                    </div>
                 </div>
-
             </div>
-            <div class="h-[1px] w-full bg-gray-700"></div>
-            <div class="Whatishapp flex gap-4 my-3">
-
-                <div class="img m-5 size-[100px] ">
-                    <img src="./Photos/DP.jpg" alt="Virat">
-                </div>
-                <div class="w-full">
-                    <input class="w-full  bg-black outline-none text-white  h-7 my-3 text-xl" type="text "
-                        placeholder=" What is happening">
-
-                    <div class="text-blue-600 flex items-center gap-2 w-full my-4">
-                        <span class="material-symbols-outlined">
-                            globe_asia
-                        </span>
-                        <span class="font-bold"> Every one can reply</span>
+            <div class="p-4 flex gap-4 border-b border-gray-700">
+                <img class="w-12 h-12 rounded-full object-cover" src="./Photos/DP.jpg" alt="Profile">
+                <div class="flex-1">
+                    <input class="w-full bg-transparent outline-none text-xl p-2 placeholder-gray-500" type="text"
+                        placeholder="What is happening?">
+                    <div
+                        class="flex items-center gap-2 text-blue-400 font-bold text-sm mt-4 cursor-pointer hover:bg-blue-400/10 w-fit p-1 px-3 rounded-full transition">
+                        <span class="material-symbols-outlined text-base">public</span>
+                        <span>Everyone can reply</span>
                     </div>
-                    <div class="w-[90%] h-[0.2px] bg-gray-400 my-3"></div>
-                    <div class="flex justify-between">
-                        <div class=" blueicons felx gap-2 text-blue-400 items-center">
-                            <span class="material-symbols-outlined cursor-pointer">
-                                image
-                            </span>
-                            <span class="material-symbols-outlined cursor-pointer">
-                                gif
-                            </span>
-                            <span class="material-symbols-outlined cursor-pointer">
-                                poll
-                            </span>
-                            <span class="material-symbols-outlined cursor-pointer">
-                                mood
-                            </span>
-                            <span class="material-symbols-outlined cursor-pointer">
-                                calendar_clock
-                            </span>
-                            <span class="material-symbols-outlined cursor-pointer">
-                                location_on
-                            </span>
-
-
+                    <div class="h-[1px] bg-gray-700 my-3"></div>
+                    <div class="flex justify-between items-center">
+                        <div class="flex gap-1 text-blue-400">
+                            <span
+                                class="material-symbols-outlined cursor-pointer hover:bg-white/10 p-2 rounded-full transition">image</span>
+                            <span
+                                class="material-symbols-outlined cursor-pointer hover:bg-white/10 p-2 rounded-full transition">gif</span>
+                            <span
+                                class="material-symbols-outlined cursor-pointer hover:bg-white/10 p-2 rounded-full transition">poll</span>
+                            <span
+                                class="material-symbols-outlined cursor-pointer hover:bg-white/10 p-2 rounded-full transition">mood</span>
+                            <span
+                                class="material-symbols-outlined cursor-pointer hover:bg-white/10 p-2 rounded-full transition">calendar_clock</span>
+                            <span
+                                class="material-symbols-outlined cursor-pointer hover:bg-white/10 p-2 rounded-full transition text-blue-400/50">location_on</span>
                         </div>
-
-
-                        <div class="postbtn">
-                            <button
-                                class="  bg-blue-600 text-white  px-10 py-3 mx-3 my-2 text-center text-sm rounded-full font-semibold">
-                                Post </button>
-                        </div>
+                        <button
+                            class="bg-blue-500 hover:bg-blue-600 text-white font-bold px-6 py-2 rounded-full transition disabled:opacity-50">Post</button>
                     </div>
                 </div>
-
             </div>
 
 
             <div class="posts">
                 <!--  POST NO 1 -->
-                <div class="post  border-[1px] border-y-gray-600 border-x-0">
-                    <div class="flex">
-                        <div class=" img m-4 w-16 rounded-full size-[100px] ">
-                            <img src="./Photos//Virat Kohli DP .jpeg" alt="Virat">
+                <div class="p-4 border-b border-gray-700 flex gap-3 hover:bg-white/5 cursor-pointer transition">
+                    <img class="w-12 h-12 rounded-full object-cover" src="./Photos/Virat Kohli DP .jpeg" alt="VK">
+                    <div class="flex-1">
+                        <div class="flex items-center gap-1">
+                            <span class="font-bold hover:underline">Virat Kohli</span>
+                            <span class="text-gray-500 text-sm">@imvkohli · 6h</span>
                         </div>
-                        <div class="contain my-2">
-                            <span class="font-bold hover:underline cursor-pointer text-white"> Virat Kohli Century
-                            </span>
-                            <span class="text-gray-500">@amitkumarpatra .6h</span>
-                            <div class="py-2">Virat Kohli Test 25th Century</div>
-                            <div class="postimg mx-2 ml-0   ">
-                                <img class="rounded-xl" src="./Photos/VK with Century.jpeg" alt="">
+                        <div class="mt-1">Virat Kohli Test 25th Century</div>
+                        <div class="mt-3 border border-gray-700 rounded-2xl overflow-hidden">
+                            <img class="w-full" src="./Photos/VK with Century.jpeg" alt="VK Century">
+                        </div>
+                        <div class="flex justify-between mt-3 text-gray-500 max-w-md">
+                            <div class="flex items-center gap-1 group hover:text-blue-400">
+                                <span
+                                    class="material-symbols-outlined text-xl p-2 group-hover:bg-blue-400/10 rounded-full transition">chat_bubble</span>
+                                <span class="text-sm">47M</span>
                             </div>
-
-
-                            <div class="icons flex items-center justify-between my-3 mx-3 gap-2 text-gray-600">
+                            <div class="flex items-center gap-1 group hover:text-green-400">
                                 <span
-                                    class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
-                                    chat_bubble
-                                </span> 47M
-                                <span
-                                    class="material-symbols-outlined  hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
-                                    repeat
-                                </span> 60M
-                                <span
-                                    class=" hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
-                                    <lord-icon src="https://cdn.lordicon.com/jjoolpwc.json" trigger="hover"
-                                        colors="primary:#ffffff,secondary:#ffffff" style="width:25px;height:25px">
-                                    </lord-icon>
-
-                                </span> 1.5B
-                                <span
-                                    class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
-                                    bar_chart
-                                </span> 5.6B+
+                                    class="material-symbols-outlined text-xl p-2 group-hover:bg-green-400/10 rounded-full transition">repeat</span>
+                                <span class="text-sm">60M</span>
                             </div>
-
-
+                            <div class="flex items-center gap-1 group hover:text-pink-400">
+                                <lord-icon src="https://cdn.lordicon.com/jjoolpwc.json" trigger="hover"
+                                    colors="primary:#6b7280,secondary:#6b7280" style="width:36px;height:36px"
+                                    class="group-hover:primary-[#f472b6]">
+                                </lord-icon>
+                                <span class="text-sm">1.5B</span>
+                            </div>
+                            <div class="flex items-center gap-1 group hover:text-blue-400">
+                                <span
+                                    class="material-symbols-outlined text-xl p-2 group-hover:bg-blue-400/10 rounded-full transition">bar_chart</span>
+                                <span class="text-sm">5.6B</span>
+                            </div>
                         </div>
                     </div>
-
-
                 </div>
-                <hr>
+
                 <!--  POST NO 2 -->
-                <div class="post ">
-                    <div class="flex">
-                        <div class=" img m-4 w-16 rounded-full size-[100px] ">
-                            <img src="./Photos/Virat Kohli DP .jpeg" alt="Virat">
+                <div class="p-4 border-b border-gray-700 flex gap-3 hover:bg-white/5 cursor-pointer transition">
+                    <img class="w-12 h-12 rounded-full object-cover" src="./Photos/Virat Kohli DP .jpeg" alt="VK">
+                    <div class="flex-1">
+                        <div class="flex items-center gap-1">
+                            <span class="font-bold hover:underline">Virat Kohli</span>
+                            <span class="text-gray-500 text-sm">@imvkohli · 5h</span>
                         </div>
-                        <div class="contain my-2">
-                            <span class="font-bold hover:underline cursor-pointer text-white">
-                            </span>
-                            <span class="text-gray-500">@mr_patra .5h</span>
-                            <div class="py-2">King Kohli</div>
-                            <div class="postimg mx-2 ml-0   ">
-                                <img class="rounded-xl" src="/Photos/VKKK.jpeg" alt="">
+                        <div class="mt-1">King Kohli</div>
+                        <div class="mt-3 border border-gray-700 rounded-2xl overflow-hidden">
+                            <img class="w-full" src="/Photos/VKKK.jpeg" alt="King Kohli">
+                        </div>
+                        <div class="flex justify-between mt-3 text-gray-500 max-w-md">
+                            <div class="flex items-center gap-1 group hover:text-blue-400">
+                                <span
+                                    class="material-symbols-outlined text-xl p-2 group-hover:bg-blue-400/10 rounded-full transition">chat_bubble</span>
+                                <span class="text-sm">2.1B</span>
                             </div>
-
-
-                            <div class="icons flex items-center justify-between my-3 mx-3 gap-2 text-gray-600">
+                            <div class="flex items-center gap-1 group hover:text-green-400">
                                 <span
-                                    class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
-                                    chat_bubble
-                                </span> 2.1B+
-                                <span
-                                    class="material-symbols-outlined  hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
-                                    repeat
-                                </span> 1.3B+
-                                <span
-                                    class=" hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
-                                    <lord-icon src="https://cdn.lordicon.com/jjoolpwc.json" trigger="hover"
-                                        colors="primary:#ffffff,secondary:#ffffff" style="width:25px;height:25px">
-                                    </lord-icon>
-
-                                </span> 1.5B
-                                <span
-                                    class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
-                                    bar_chart
-                                </span> 59 B+
+                                    class="material-symbols-outlined text-xl p-2 group-hover:bg-green-400/10 rounded-full transition">repeat</span>
+                                <span class="text-sm">1.3B</span>
                             </div>
-
+                            <div class="flex items-center gap-1 group hover:text-pink-400">
+                                <lord-icon src="https://cdn.lordicon.com/jjoolpwc.json" trigger="hover"
+                                    colors="primary:#6b7280,secondary:#6b7280" style="width:36px;height:36px">
+                                </lord-icon>
+                                <span class="text-sm">1.5B</span>
+                            </div>
+                            <div class="flex items-center gap-1 group hover:text-blue-400">
+                                <span
+                                    class="material-symbols-outlined text-xl p-2 group-hover:bg-blue-400/10 rounded-full transition">bar_chart</span>
+                                <span class="text-sm">59B</span>
+                            </div>
                         </div>
                     </div>
-
-
                 </div>
-                <hr>
+
                 <!-- POST NO 3 -->
-                <div class="post ">
-                    <div class="flex">
-                        <div class=" img m-4 w-16 rounded-full size-[100px] ">
-                            <img src="./Photos/New logo .jpg" alt="MR PATRA logo">
+                <div class="p-4 border-b border-gray-700 flex gap-3 hover:bg-white/5 cursor-pointer transition">
+                    <img class="w-12 h-12 rounded-full object-cover" src="./Photos/New logo .jpg" alt="MR PATRA">
+                    <div class="flex-1">
+                        <div class="flex items-center gap-1">
+                            <span class="font-bold hover:underline">YouTube Gaming Creator</span>
+                            <span class="text-gray-500 text-sm">@akpatra · 1h</span>
                         </div>
-                        <div class="contain my-2">
-                            <span class="font-bold hover:underline cursor-pointer text-white">YouTube Gaming Creator
-                            </span>
-                            <span class="text-gray-500">@akpatra .1h</span>
-                            <div class="py-2">OFFICIAL YOUTUBE CHANNEL</div>
-                            <div class="postimg mx-2 ml-0   ">
-                                <img class="rounded-xl" src="./Photos//Mr Patra Gaming.jpg" alt="">
+                        <div class="mt-1">OFFICIAL YOUTUBE CHANNEL</div>
+                        <div class="mt-3 border border-gray-700 rounded-2xl overflow-hidden">
+                            <img class="w-full" src="./Photos//Mr Patra Gaming.jpg" alt="Gaming Channel">
+                        </div>
+                        <div class="flex justify-between mt-3 text-gray-500 max-w-md">
+                            <div class="flex items-center gap-1 group hover:text-blue-400">
+                                <span
+                                    class="material-symbols-outlined text-xl p-2 group-hover:bg-blue-400/10 rounded-full transition">chat_bubble</span>
+                                <span class="text-sm">3k</span>
                             </div>
-
-
-                            <div class="icons flex items-center justify-between my-3 mx-3 gap-2 text-gray-600">
+                            <div class="flex items-center gap-1 group hover:text-green-400">
                                 <span
-                                    class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
-                                    chat_bubble
-                                </span> 3k
+                                    class="material-symbols-outlined text-xl p-2 group-hover:bg-green-400/10 rounded-full transition">repeat</span>
+                                <span class="text-sm">2.5K</span>
+                            </div>
+                            <div class="flex items-center gap-1 group hover:text-pink-400">
+                                <lord-icon src="https://cdn.lordicon.com/jjoolpwc.json" trigger="hover"
+                                    colors="primary:#6b7280,secondary:#6b7280" style="width:36px;height:36px">
+                                </lord-icon>
+                                <span class="text-sm">40K</span>
+                            </div>
+                            <div class="flex items-center gap-1 group hover:text-blue-400">
                                 <span
-                                    class="material-symbols-outlined  hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
-                                    repeat
-                                </span> 2.5K
-                                <span
-                                    class=" hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
-                                    <lord-icon src="https://cdn.lordicon.com/jjoolpwc.json" trigger="hover"
-                                        colors="primary:#ffffff,secondary:#ffffff" style="width:25px;height:25px">
-                                    </lord-icon>
-
-                                </span> 40K
-                                <span
-                                    class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
-                                    bar_chart
-                                </span> 100K
+                                    class="material-symbols-outlined text-xl p-2 group-hover:bg-blue-400/10 rounded-full transition">bar_chart</span>
+                                <span class="text-sm">100K</span>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
-                <hr>
-                <!--  POST NO 4 -->
-                <div class="post ">
-                    <div class="flex">
-                        <div class=" img m-4 w-16 rounded-full size-[100px] ">
-                            <img src="" alt="">
+            </div>
+            <hr>
+            <!--  POST NO 4 -->
+            <div class="post ">
+                <div class="flex">
+                    <div class=" img m-4 w-16 rounded-full size-[100px] ">
+                        <img src="" alt="">
+                    </div>
+                    <div class="contain my-2">
+                        <span class="font-bold hover:underline cursor-pointer text-white">
+                        </span>
+                        <span class="text-gray-500">@audiin .2h</span>
+                        <div class="py-2">Audi Q8 new lunch in India</div>
+                        <div class="postimg mx-2 ml-0   ">
+                            <img class="rounded-xl" src="./Photos/Audi Q8.jpeg" alt="">
                         </div>
-                        <div class="contain my-2">
-                            <span class="font-bold hover:underline cursor-pointer text-white">
-                            </span>
-                            <span class="text-gray-500">@audiin .2h</span>
-                            <div class="py-2">Audi Q8 new lunch in India</div>
+
+
+                        <div class="icons flex items-center justify-between my-3 mx-3 gap-2 text-gray-600">
+                            <span
+                                class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                chat_bubble
+                            </span> 115k
+                            <span
+                                class="material-symbols-outlined  hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                repeat
+                            </span> 30k
+                            <span
+                                class=" hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                <lord-icon src="https://cdn.lordicon.com/jjoolpwc.json" trigger="hover"
+                                    colors="primary:#ffffff,secondary:#ffffff" style="width:25px;height:25px">
+                                </lord-icon>
+
+                            </span> 1.5B
+                            <span
+                                class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                bar_chart
+                            </span> 10M
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <!-- POST 5 -->
+            <div class="post ">
+                <div class="flex">
+                    <div class=" img m-4 w-16 rounded-full size-[100px] ">
+                        <img src="./Photos/Random Pjoto.jpeg" alt="">
+                    </div>
+                    <div class="contain my-2">
+                        <span class="font-bold  cursor-pointer text-white"> Random Photo ...
+                            <span class="text-gray-500">@random_photography .6h</span>
+                            <div class="py-2">Memes</div>
                             <div class="postimg mx-2 ml-0   ">
-                                <img class="rounded-xl" src="./Photos/Audi Q8.jpeg" alt="">
+                                <img class="rounded-xl" src="/Photos/Rndom photo 2.jpeg" alt="">
                             </div>
 
 
-                            <div class="icons flex items-center justify-between my-3 mx-3 gap-2 text-gray-600">
+                            <div class="icons flex items-center justify-between my-3 mx-3  text-gray-600">
                                 <span
                                     class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
                                     chat_bubble
-                                </span> 115k
+                                </span> 4K
                                 <span
                                     class="material-symbols-outlined  hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
                                     repeat
-                                </span> 30k
+                                </span> 2.6k
                                 <span
                                     class=" hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
                                     <lord-icon src="https://cdn.lordicon.com/jjoolpwc.json" trigger="hover"
@@ -368,216 +369,150 @@
                                 <span
                                     class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
                                     bar_chart
-                                </span> 10M
+                                </span> 110K
                             </div>
-
-                        </div>
-                    </div>
-                </div>
-                <hr>
-
-                <!-- POST 5 -->
-                <div class="post ">
-                    <div class="flex">
-                        <div class=" img m-4 w-16 rounded-full size-[100px] ">
-                            <img src="./Photos/Random Pjoto.jpeg" alt="">
-                        </div>
-                        <div class="contain my-2">
-                            <span class="font-bold  cursor-pointer text-white"> Random Photo ...
-                                <span class="text-gray-500">@random_photography .6h</span>
-                                <div class="py-2">Memes</div>
-                                <div class="postimg mx-2 ml-0   ">
-                                    <img class="rounded-xl" src="/Photos/Rndom photo 2.jpeg" alt="">
-                                </div>
-
-
-                                <div class="icons flex items-center justify-between my-3 mx-3  text-gray-600">
-                                    <span
-                                        class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
-                                        chat_bubble
-                                    </span> 4K
-                                    <span
-                                        class="material-symbols-outlined  hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
-                                        repeat
-                                    </span> 2.6k
-                                    <span
-                                        class=" hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
-                                        <lord-icon src="https://cdn.lordicon.com/jjoolpwc.json" trigger="hover"
-                                            colors="primary:#ffffff,secondary:#ffffff" style="width:25px;height:25px">
-                                        </lord-icon>
-
-                                    </span> 1.5B
-                                    <span
-                                        class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
-                                        bar_chart
-                                    </span> 110K
-                                </div>
-                        </div>
-                    </div>
-
-
-                </div>
-                <hr>
-                <!-- POST NO 6 -->
-                <div class="post ">
-                    <div class="flex">
-                        <div class=" img m-4 w-16 rounded-full size-[100px] ">
-                            <img src="/Photos/New logo .jpg" alt="Virat">
-                        </div>
-                        <div class="contain my-2">
-                            <span class="font-bold hover:underline cursor-pointer text-white"> New Logo
-                            </span>
-                            <span class="text-gray-500">@amitkumarpatra .6h</span>
-                            <div class="py-2">Logo Color Change</div>
-                            <div class="postimg mx-2 ml-0   ">
-                                <img class="rounded-xl" src="./Photos/New logo .jpg" alt="">
-                            </div>
-
-
-                            <div class="icons flex items-center justify-between my-3 mx-3 gap-2 text-gray-600">
-                                <span
-                                    class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
-                                    chat_bubble
-                                </span> 2k
-                                <span
-                                    class="material-symbols-outlined  hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
-                                    repeat
-                                </span> 56k
-                                <span
-                                    class=" hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
-                                    <lord-icon src="https://cdn.lordicon.com/jjoolpwc.json" trigger="hover"
-                                        colors="primary:#ffffff,secondary:#ffffff" style="width:25px;height:25px">
-                                    </lord-icon>
-
-                                </span> 118K
-                                <span
-                                    class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
-                                    bar_chart
-                                </span> 150k
-                            </div>
-                        </div>
                     </div>
                 </div>
 
-                <hr>
+
+            </div>
+            <hr>
+            <!-- POST NO 6 -->
+            <div class="post ">
+                <div class="flex">
+                    <div class=" img m-4 w-16 rounded-full size-[100px] ">
+                        <img src="/Photos/New logo .jpg" alt="Virat">
+                    </div>
+                    <div class="contain my-2">
+                        <span class="font-bold hover:underline cursor-pointer text-white"> New Logo
+                        </span>
+                        <span class="text-gray-500">@amitkumarpatra .6h</span>
+                        <div class="py-2">Logo Color Change</div>
+                        <div class="postimg mx-2 ml-0   ">
+                            <img class="rounded-xl" src="./Photos/New logo .jpg" alt="">
+                        </div>
+
+
+                        <div class="icons flex items-center justify-between my-3 mx-3 gap-2 text-gray-600">
+                            <span
+                                class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                chat_bubble
+                            </span> 2k
+                            <span
+                                class="material-symbols-outlined  hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                repeat
+                            </span> 56k
+                            <span
+                                class=" hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                <lord-icon src="https://cdn.lordicon.com/jjoolpwc.json" trigger="hover"
+                                    colors="primary:#ffffff,secondary:#ffffff" style="width:25px;height:25px">
+                                </lord-icon>
+
+                            </span> 118K
+                            <span
+                                class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                bar_chart
+                            </span> 150k
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+    </div>
+    </div>
+
+
+
+
+
+    </main>
+
+    <aside class="hidden lg:flex flex-col w-[350px] ml-8 space-y-4 py-2">
+        <div class="sticky top-2 bg-black py-2 z-10">
+            <div
+                class="flex items-center gap-3 bg-gray-900 px-4 py-3 rounded-full border border-transparent focus-within:border-blue-500 focus-within:bg-black transition">
+                <span class="material-symbols-outlined text-gray-500 text-xl text-xl">search</span>
+                <input type="text" placeholder="Search" class="bg-transparent outline-none w-full text-white">
             </div>
         </div>
 
-
-
-
-
-        <!-- THIRD  DIV/ PART -->
-
-        <div class="third bg  w-full bg-red-5044 hidden md:block">
-            <div class="search">
-                <input type="text" class="w-1/2 rounded-full bg-[#16181c] text-white px-4 py-2 m-3"
-                    placeholder="Search ">
+        <div class="bg-gray-900 rounded-2xl overflow-hidden">
+            <h2 class="text-xl font-bold px-4 py-3">What's happening</h2>
+            <div class="hover:bg-white/5 cursor-pointer px-4 py-3 transition">
+                <div class="text-xs text-gray-500">Trending in India</div>
+                <div class="font-bold text-base mt-0.5">#kingkohli</div>
+                <div class="text-xs text-gray-500 mt-1">100.65M Posts</div>
             </div>
-            <div class="whats  sticky top-0 m-3 py-5 bg-[#16181c] w-1/2 rounded-xl  space-y-3 ">
-
-                <h1 class="text-xl font-bold px-3">Whats Happening</h1>
-
-
-                <div class="item p-3 px-4 hover:bg-gray-800 cursor-pointer">
-                    <div class=" text-sm text-gray-200">Treanding In India</div>
-                    <div class="font-bold"> #kingkohli</div>
-                    <div class="text-sm text-gray-200">100.65M Posts</div>
-                </div>
-
-                <div class="item p-3 px-4 hover:bg-gray-800 cursor-pointer">
-                    <div class=" text-sm text-gray-200">Treanding In India</div>
-                    <div class="font-bold"> #kingcentury</div>
-                    <div class="text-sm text-gray-200">85.68M Posts</div>
-
-                </div>
-                <div class="item p-3 px-4 hover:bg-gray-800 cursor-pointer">
-                    <div class=" text-sm text-gray-200">Treanding In India</div>
-                    <div class="font-bold"> #webdevlopment</div>
-                    <div class="text-sm text-gray-200">58.4M Posts</div>
-
-                </div>
-
-                <div class="item p-3 px-4 hover:bg-gray-800 cursor-pointer">
-                    <div class=" text-sm text-gray-200">Treanding In India</div>
-                    <div class="font-bold"> #mrpatraff</div>
-                    <div class="text-sm text-gray-200">28.18M Posts</div>
-
-                </div>
-
-
-
+            <div class="hover:bg-white/5 cursor-pointer px-4 py-3 transition">
+                <div class="text-xs text-gray-500">Trending in India</div>
+                <div class="font-bold text-base mt-0.5">#kingcentury</div>
+                <div class="text-xs text-gray-500 mt-1">85.68M Posts</div>
             </div>
-
-
-
-            <div class="who sticky top-[50vh] m-3 py-5 bg-[#16181c] w-1/2 rounded-xl   ">
-
-                <h1 class="text-xl font-bold px-3">Whom To Follow</h1>
-
-
-                <div
-                    class="item  items-center gap-2 p-3 px-4    flex  justify-between hover:bg-gray-800 cursor-pointer">
-                    <div class="flex gap-3">
-
-                        <div class="p1 "> <img class=" w-12 h-12" src="./Photos//Virat Kohli DP .jpeg" alt=""></div>
-                        <div class="p2">
-                            <div> Virat Kohli</div>
-                            <div class="text-gray-500">@imvkohli</div>
-                        </div>
-                    </div>
-
-                    <div class="p3">
-                        <button class="bg-white text-black rounded-full font-bold px-5 py-2">Follow</button>
-                    </div>
-                </div>
-
-                <div class="item  items-center gap-2 p-3  hover:bg-gray-800 cursor-pointer   flex  justify-between">
-                    <div class="flex gap-3">
-
-                        <div class="p1 "> <img class=" w-12 h-12" src="./Photos/New logo .jpg" alt=""></div>
-                        <div class="p2">
-                            <div> MR PATRA FF </div>
-                            <div class="text-gray-500">@mr.patraa_</div>
-                        </div>
-                    </div>
-
-                    <div class="p3">
-                        <button class="bg-white text-black rounded-full font-bold px-5 py-2">Follow</button>
-                    </div>
-                </div>
-
-
-
-                <div class="item  items-center gap-2 p-3  hover:bg-gray-800 cursor-pointer  flex  justify-between">
-                    <div class="flex gap-3">
-
-                        <div class="p1 "> <img class=" w-12 h-12" src="./Photos/Audi Q8.jpeg" alt=""></div>
-                        <div class="p2">
-                            <div> Audi India</div>
-                            <div class="text-gray-500">@audiin</div>
-                        </div>
-                    </div>
-
-                    <div class="p3">
-                        <button class="bg-white text-black rounded-full font-bold px-5 py-2">Follow</button>
-                    </div>
-                </div>
-
-
-                <div class=" hover:underline cursor-pointer text-blue-600 my-5">Show More</div>
+            <div class="hover:bg-white/5 cursor-pointer px-4 py-3 transition">
+                <div class="text-xs text-gray-500">Trending in India</div>
+                <div class="font-bold text-base mt-0.5">#webdevelopment</div>
+                <div class="text-xs text-gray-500 mt-1">58.4M Posts</div>
             </div>
-            <div class="termsandcondition sticky top-[84vh] m-3 py-5 text-xs  text-gray-500 px-3 w-1/2 ">
-                <span class="hover:underline cursor-pointer mr-2">Tearms of service</span>
-                <span class="hover:underline cursor-pointer mr-2">Cookie Policy</span>
-                <span class="hover:underline cursor-pointer mr-2">Accessibility</span>
-                <span class="hover:underline cursor-pointer mr-2">Ads info</span>
-                <span class="hover:underline cursor-pointer mr-2">more...</span>
-                <span class="hover:underline cursor-pointer mr-2">© 2024 X Corp</span>
+            <div class="hover:bg-white/5 cursor-pointer px-4 py-3 transition">
+                <div class="text-xs text-gray-500">Trending in India</div>
+                <div class="font-bold text-base mt-0.5">#mrpatraff</div>
+                <div class="text-xs text-gray-500 mt-1">28.18M Posts</div>
             </div>
-
-
+            <div class="px-4 py-4 text-blue-400 hover:bg-white/5 cursor-pointer transition text-sm">Show more</div>
         </div>
+
+        <div class="bg-gray-900 rounded-2xl overflow-hidden">
+            <h2 class="text-xl font-bold px-4 py-3">Who to follow</h2>
+            <div class="flex items-center justify-between px-4 py-3 hover:bg-white/5 cursor-pointer transition">
+                <div class="flex gap-3">
+                    <img class="w-10 h-10 rounded-full object-cover" src="./Photos/Virat Kohli DP .jpeg" alt="VK">
+                    <div class="flex flex-col">
+                        <span class="font-bold hover:underline">Virat Kohli</span>
+                        <span class="text-gray-500 text-sm">@imvkohli</span>
+                    </div>
+                </div>
+                <button
+                    class="bg-white text-black font-bold px-4 py-1.5 rounded-full text-sm hover:bg-gray-200 transition">Follow</button>
+            </div>
+            <div class="flex items-center justify-between px-4 py-3 hover:bg-white/5 cursor-pointer transition">
+                <div class="flex gap-3">
+                    <img class="w-10 h-10 rounded-full object-cover" src="./Photos/New logo .jpg" alt="Logo">
+                    <div class="flex flex-col">
+                        <span class="font-bold hover:underline">MR PATRA FF</span>
+                        <span class="text-gray-500 text-sm">@mr.patraa_</span>
+                    </div>
+                </div>
+                <button
+                    class="bg-white text-black font-bold px-4 py-1.5 rounded-full text-sm hover:bg-gray-200 transition">Follow</button>
+            </div>
+            <div class="flex items-center justify-between px-4 py-3 hover:bg-white/5 cursor-pointer transition">
+                <div class="flex gap-3">
+                    <img class="w-10 h-10 rounded-full object-cover" src="./Photos/Audi Q8.jpeg" alt="Audi">
+                    <div class="flex flex-col">
+                        <span class="font-bold hover:underline">Audi India</span>
+                        <span class="text-gray-500 text-sm">@audiin</span>
+                    </div>
+                </div>
+                <button
+                    class="bg-white text-black font-bold px-4 py-1.5 rounded-full text-sm hover:bg-gray-200 transition">Follow</button>
+            </div>
+            <div class="px-4 py-4 text-blue-400 hover:bg-white/5 cursor-pointer transition text-sm">Show more</div>
+        </div>
+
+        <footer class="px-4 py-4 text-xs text-gray-500 leading-normal">
+            <div class="flex flex-wrap gap-x-3 gap-y-1">
+                <a href="#" class="hover:underline">Terms of Service</a>
+                <a href="#" class="hover:underline">Privacy Policy</a>
+                <a href="#" class="hover:underline">Cookie Policy</a>
+                <a href="#" class="hover:underline">Accessibility</a>
+                <a href="#" class="hover:underline">Ads info</a>
+                <a href="#" class="hover:underline">More...</a>
+                <span>© 2024 X Corp.</span>
+            </div>
+        </footer>
+    </aside>
+    </div>
     </div>
     </div>
 
