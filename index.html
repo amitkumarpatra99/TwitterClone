@@ -14,149 +14,119 @@
 </head>
 
 <body class="bg-black text-white">
-    <div class="flex md:container mx-auto my-4">
-        <div class="first w-16 md:w-[70%] ">
-
-            <div class="sidebar flex md:items-end  flex-col sticky top-0">
-                <div class="logo invert my-4 self-start mx-2 md:mx-16">
-
-                    <svg viewBox="0 0 24 24" aria-hidden="true"
-                        class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+    <div class="flex justify-center max-w-[1300px] mx-auto min-h-screen">
+        <header class="w-20 xl:w-[275px] flex-shrink-0">
+            <div class="sidebar flex flex-col items-center xl:items-start sticky top-0 h-screen overflow-y-auto px-2">
+                <div class="logo my-2 p-3 hover:bg-gray-900 rounded-full cursor-pointer transition w-fit">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" class="w-8 fill-white">
                         <g>
                             <path
                                 d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
                             </path>
                         </g>
                     </svg>
-
                 </div>
 
-                <ul class="flex flex-col text-2xl space-y-3 md:px-11 font-bold w-full  ">
-                    <li
-                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <span>
-                            <lord-icon src="https://cdn.lordicon.com/laqlvddb.json" trigger="hover"
-                                colors="primary:#ffffff,secondary:#ffffff" style="width:25px;height:25px">
-                            </lord-icon>
-                        </span>
-                        <span class="hidden md:block">Home</span>
-                    </li>
-                    <li
-                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <lord-icon src="https://cdn.lordicon.com/pagmnkiz.json" trigger="hover"
-                            colors="primary:#ffffff,secondary:#ffffff" style="width:25px;height:25px">
-                        </lord-icon>
-                        <span class="hidden md:block">Explore</span>
-                    </li>
-                    <li
-                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <lord-icon src="https://cdn.lordicon.com/vspbqszr.json" trigger="hover" colors="primary:#ffffff"
-                            style="width:25px;height:25px">
-                        </lord-icon>
-                        <span class="hidden md:block">Notifications</span>
-                    </li>
-                    <li
-                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <lord-icon src="https://cdn.lordicon.com/cywksamr.json" trigger="hover"
-                            colors="primary:#ffffff,secondary:#ffffff" style="width:25px;height:25px">
-                        </lord-icon>
-                        <span class="hidden md:block">Messages</span>
-                    </li>
-                    <li
-                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <lord-icon src="https://cdn.lordicon.com/yxyampao.json" trigger="hover" colors="primary:#ffffff"
-                            style="width:25px;height:25px">
-                        </lord-icon>
-
-                        <span class="hidden md:block">Grock</span>
-                    </li>
-
-
-                    <li
-                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <lord-icon src="https://cdn.lordicon.com/rahouxil.json" trigger="hover"
-                            colors="primary:#ffffff,secondary:#ffffff" style="width:25px;height:25px">
-                        </lord-icon>
-
-                        <span class="hidden md:block">Bookmarks</span>
-                    </li>
-                    <li
-                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <lord-icon src="https://cdn.lordicon.com/kndkiwmf.json" trigger="hover"
-                            colors="primary:#ffffff,secondary:#ffffff" style="width:25px;height:25px">
-                        </lord-icon>
-                        <span class="hidden md:block">Communities</span>
-                    </li>
-
-
-                    <li
-                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <lord-icon src="https://cdn.lordicon.com/lhscugaw.json" trigger="hover"
-                            colors="primary:#ffffff,secondary:#ffffff" style="width:25px;height:25px">
-                        </lord-icon>
-                        <span class="hidden md:block">Premium</span>
-                    </li>
-
-                    <li
-                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <lord-icon src="https://cdn.lordicon.com/ciawvzjk.json" trigger="hover" colors="primary:#ffffff"
-                            style="width:25px;height:25px">
-                        </lord-icon>
-                        <span class="hidden md:block">Business</span>
-                    </li>
-
-                    <li
-                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <lord-icon src="https://cdn.lordicon.com/xzalkbkz.json" trigger="hover"
-                            colors="primary:#ffffff,secondary:#ffffff" style="width:25px;height:25px">
-                        </lord-icon>
-
-                        <span class="hidden md:block">Profile</span>
-                    </li>
-
-                    <li
-                        class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <lord-icon src="https://cdn.lordicon.com/lqxfrxad.json" trigger="hover" colors="primary:#ffffff"
-                            style="width:25px;height:25px">
-                        </lord-icon>
-
-                        <span class="hidden md:block">More</span>
-                    </li>
-
-
-
-
-                    <li>
-                        <div class="button my-4">
-                            <button
-                                class="hidden md:block bg-blue-600 text-white w-1/2 px-10 py-2 text-center text xl rounded-full">Post</button>
-                            <button
-                                class="md:hidden bg-blue-600 text-white w-1/2 px-2 md:px-4 py-2 md:py-1 text-center text xl rounded-full">
-                                <span class="material-symbols-outlined cursor-pointer">
-                                    edit
-                                </span>
-                            </button>
-                        </div>
-                    </li>
-                </ul>
-                <div class="userprofile w-full  mx-7 hidden md:flex  mt-15">
+                <nav class="flex flex-col text-xl space-y-1 w-full mt-2">
                     <div
-                        class="item  items-center gap-5 p-3 justify-end rounded-full w-fit mx-5  hover:bg-gray-800 cursor-pointer  flex  ">
-
-
-                        <div class="p1 "> <img class=" w-12 h-12" src="./Photos/DP.jpg" alt=""></div>
-                        <div class="p2">
-                            <div class="font-semibold">AMIT KUMAR PATRA</div>
-                            <div class="text-gray-500">@mr_patra_</div>
-                        </div>
-                        <div class="p3 text-3xl">...</div>
+                        class="flex xl:justify-start items-center gap-4 justify-center w-full hover:bg-gray-900 hover:cursor-pointer p-3 rounded-full transition group">
+                        <lord-icon src="https://cdn.lordicon.com/laqlvddb.json" trigger="hover"
+                            colors="primary:#ffffff,secondary:#ffffff" style="width:28px;height:28px">
+                        </lord-icon>
+                        <span class="hidden xl:block font-bold">Home</span>
+                    </div>
+                    <div
+                        class="flex xl:justify-start items-center gap-4 justify-center w-full hover:bg-gray-900 hover:cursor-pointer p-3 rounded-full transition group">
+                        <lord-icon src="https://cdn.lordicon.com/pagmnkiz.json" trigger="hover"
+                            colors="primary:#ffffff,secondary:#ffffff" style="width:28px;height:28px">
+                        </lord-icon>
+                        <span class="hidden xl:block">Explore</span>
+                    </div>
+                    <div
+                        class="flex xl:justify-start items-center gap-4 justify-center w-full hover:bg-gray-900 hover:cursor-pointer p-3 rounded-full transition group">
+                        <lord-icon src="https://cdn.lordicon.com/vspbqszr.json" trigger="hover" colors="primary:#ffffff"
+                            style="width:28px;height:28px">
+                        </lord-icon>
+                        <span class="hidden xl:block">Notifications</span>
+                    </div>
+                    <div
+                        class="flex xl:justify-start items-center gap-4 justify-center w-full hover:bg-gray-900 hover:cursor-pointer p-3 rounded-full transition group">
+                        <lord-icon src="https://cdn.lordicon.com/cywksamr.json" trigger="hover"
+                            colors="primary:#ffffff,secondary:#ffffff" style="width:28px;height:28px">
+                        </lord-icon>
+                        <span class="hidden xl:block">Messages</span>
+                    </div>
+                    <div
+                        class="flex xl:justify-start items-center gap-4 justify-center w-full hover:bg-gray-900 hover:cursor-pointer p-3 rounded-full transition group">
+                        <lord-icon src="https://cdn.lordicon.com/yxyampao.json" trigger="hover" colors="primary:#ffffff"
+                            style="width:28px;height:28px">
+                        </lord-icon>
+                        <span class="hidden xl:block">Grok</span>
+                    </div>
+                    <div
+                        class="flex xl:justify-start items-center gap-4 justify-center w-full hover:bg-gray-900 hover:cursor-pointer p-3 rounded-full transition group">
+                        <lord-icon src="https://cdn.lordicon.com/rahouxil.json" trigger="hover"
+                            colors="primary:#ffffff,secondary:#ffffff" style="width:28px;height:28px">
+                        </lord-icon>
+                        <span class="hidden xl:block">Bookmarks</span>
+                    </div>
+                    <div
+                        class="flex xl:justify-start items-center gap-4 justify-center w-full hover:bg-gray-900 hover:cursor-pointer p-3 rounded-full transition group">
+                        <lord-icon src="https://cdn.lordicon.com/kndkiwmf.json" trigger="hover"
+                            colors="primary:#ffffff,secondary:#ffffff" style="width:28px;height:28px">
+                        </lord-icon>
+                        <span class="hidden xl:block">Communities</span>
+                    </div>
+                    <div
+                        class="flex xl:justify-start items-center gap-4 justify-center w-full hover:bg-gray-900 hover:cursor-pointer p-3 rounded-full transition group">
+                        <lord-icon src="https://cdn.lordicon.com/lhscugaw.json" trigger="hover"
+                            colors="primary:#ffffff,secondary:#ffffff" style="width:28px;height:28px">
+                        </lord-icon>
+                        <span class="hidden xl:block">Premium</span>
+                    </div>
+                    <div
+                        class="flex xl:justify-start items-center gap-4 justify-center w-full hover:bg-gray-900 hover:cursor-pointer p-3 rounded-full transition group">
+                        <lord-icon src="https://cdn.lordicon.com/ciawvzjk.json" trigger="hover" colors="primary:#ffffff"
+                            style="width:28px;height:28px">
+                        </lord-icon>
+                        <span class="hidden xl:block">Business</span>
+                    </div>
+                    <div
+                        class="flex xl:justify-start items-center gap-4 justify-center w-full hover:bg-gray-900 hover:cursor-pointer p-3 rounded-full transition group">
+                        <lord-icon src="https://cdn.lordicon.com/xzalkbkz.json" trigger="hover"
+                            colors="primary:#ffffff,secondary:#ffffff" style="width:28px;height:28px">
+                        </lord-icon>
+                        <span class="hidden xl:block">Profile</span>
+                    </div>
+                    <div
+                        class="flex xl:justify-start items-center gap-4 justify-center w-full hover:bg-gray-900 hover:cursor-pointer p-3 rounded-full transition group">
+                        <lord-icon src="https://cdn.lordicon.com/lqxfrxad.json" trigger="hover" colors="primary:#ffffff"
+                            style="width:28px;height:28px">
+                        </lord-icon>
+                        <span class="hidden xl:block">More</span>
                     </div>
 
+                    <div class="mt-4 w-full flex justify-center xl:justify-start">
+                        <button
+                            class="bg-blue-600 text-white xl:w-[90%] w-12 h-12 xl:h-auto py-3 rounded-full font-bold flex items-center justify-center hover:bg-blue-700 transition">
+                            <span class="hidden xl:block text-lg">Post</span>
+                            <span class="material-symbols-outlined xl:hidden">edit</span>
+                        </button>
+                    </div>
+                </nav>
+                <div class="userprofile mt-auto mb-4 w-full px-2">
+                    <div
+                        class="flex items-center gap-3 p-3 hover:bg-gray-800 rounded-full cursor-pointer transition w-fit xl:w-full">
+                        <img class="w-10 h-10 rounded-full object-cover" src="./Photos/DP.jpg" alt="Profile">
+                        <div class="hidden xl:block overflow-hidden flex-1">
+                            <div class="font-bold truncate">AMIT KUMAR PATRA</div>
+                            <div class="text-gray-500 truncate">@mr_patra_</div>
+                        </div>
+                        <div class="hidden xl:block text-xl">...</div>
+                    </div>
                 </div>
-
             </div>
-
-        </div>
+        </header>
 
 
         <!--  SECOND PART -->
